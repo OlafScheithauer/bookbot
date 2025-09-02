@@ -1,0 +1,68 @@
+def count_words (text):
+   words = text.split()
+   return len(words)
+
+
+def count_chars (text):
+   text_lower = text.lower()
+   count_a = text_lower.count("a")
+   count_b = text_lower.count("b")
+   count_c = text_lower.count("c")
+   count_d = text_lower.count("d")
+   count_e = text_lower.count("e")
+   count_f = text_lower.count("f")
+   count_g = text_lower.count("g")
+   count_h = text_lower.count("h")
+   count_i = text_lower.count("i")
+   count_j = text_lower.count("j")
+   count_k = text_lower.count("k")
+   count_l = text_lower.count("l")
+   count_m = text_lower.count("m")
+   count_n = text_lower.count("n")
+   count_o = text_lower.count("o")
+   count_p = text_lower.count("p")
+   count_q = text_lower.count("q")
+   count_r = text_lower.count("r")
+   count_s = text_lower.count("s")
+   count_t = text_lower.count("t")
+   count_u = text_lower.count("u")
+   count_v = text_lower.count("v")
+   count_w = text_lower.count("w")
+   count_x = text_lower.count("x")
+   count_y = text_lower.count("y")
+   count_z = text_lower.count("z")
+   chars = {
+      "a": count_a,
+      "b": count_b,
+      "c": count_c,
+      "d": count_d,
+      "e": count_e,
+      "f": count_f,
+      "g": count_g,
+      "h": count_h,
+      "i": count_i,
+      "j": count_j,
+      "k": count_k,
+      "l": count_l,
+      "m": count_m,
+      "n": count_n,
+      "o": count_o,
+      "p": count_p,
+      "q": count_q,
+      "r": count_r,
+      "s": count_s,
+      "t": count_t,
+      "u": count_u,
+      "v": count_v,
+      "w": count_w,
+      "x": count_x,
+      "y": count_y,
+      "z": count_z
+   }
+   return chars
+
+def sort_chars (chars):
+   cars_sort = [
+      {"char":
+return chars["count"]
+
